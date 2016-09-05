@@ -1,0 +1,2 @@
+# NaverTranslator
+NAVER TRANSLATE API INTERFACE

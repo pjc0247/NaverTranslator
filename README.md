@@ -53,5 +53,7 @@ Usage
 ```cs
 var tr = TranslateAPI.Create("CLIENT_ID", "CLIENT_SECRET");
 
-var translated = await tr.Translate("ko", "ja", "안녕");
+var translated = await tr.Translate(
+    TargetLanguages.Korean, TargetLanguages.English,
+    "안녕");
 ```

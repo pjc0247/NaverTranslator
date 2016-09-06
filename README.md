@@ -5,8 +5,7 @@ NAVER TRANSLATE API INTERFACE w/ [CsRestClient](https://github.com/pjc0247/CsRes
 [Service("v1/language")]
 public interface TranslateAPIInterface : WithCommonHeader
 {
-    [Post]
-    [Resource("translate")]
+    [Post, Resource("translate")]
     [JsonPath("message.result.translatedText")]
     Task<string> Translate(
         [RequestUri]string source, [RequestUri]string target,

@@ -8,7 +8,9 @@ public interface TranslateAPIInterface : WithCommonHeader
     [Post]
     [Resource("translate")]
     [JsonPath("message.result.translatedText")]
-    Task<string> Translate([RequestUri]string source, [RequestUri]string target, [RequestUri]string text);
+    Task<string> Translate(
+        [RequestUri]string source, [RequestUri]string target,
+        [RequestUri]string text);
 }
 
 public class TranslateAPI

@@ -1,5 +1,5 @@
 # NaverTranslator
-NAVER TRANSLATE API INTERFACE w/ [CsRestClient](https://github.com/pjc0247/CsRestClient)
+NAVER TRANSLATE API INTERFACE w/ [StrongHTTP](https://github.com/pjc0247/StrongHTTP)
 
 ```cs
 [Service("v1/language")]
